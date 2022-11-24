@@ -1,0 +1,5 @@
+sudo apt update 
+sudo apt install realtek-rtl8188eus*
+iwconfig
+sudo airmon-ng start wlan0
+sudo airodump-ng wlan0
